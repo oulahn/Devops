@@ -66,10 +66,10 @@ resources:
     cpu: 30m
 
 autoscaling:
-  enabled: false
-#  minReplicas: 1
-#  maxReplicas: 10
-#  targetCPUUtilizationPercentage: 50
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 50
 
 nodeSelector: {}
 
